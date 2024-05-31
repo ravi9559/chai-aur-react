@@ -39,7 +39,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Acme Inc, Street, State, Postal Code
+                                Whitefield Main Rd, Varthur Kodi, Palm Meadows, Bengaluru, Karnataka 560066
                                 </div>
                             </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +44 1234567890
+                                    +91-789-203-4418
                                 </div>
                             </div>
 
@@ -83,7 +83,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@acme.org
+                                   ravi.eng2012@gmail.com
                                 </div>
                             </div>
                         </div>

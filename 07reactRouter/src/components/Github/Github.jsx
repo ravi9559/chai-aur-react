@@ -23,7 +23,7 @@ function Github(){
         
         // <div className="flex max-w-2xl flex-col justify-center items-center rounded-md border md:flex-row">
 
-        <div className="relative flex items-top justify-center min-h-[400px] bg-white sm:items-center sm:pt-0">
+        <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
 
   <div className="h-full w-full md:h-[200px] md:w-[300px]">
     <img
