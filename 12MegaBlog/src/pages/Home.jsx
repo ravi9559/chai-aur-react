@@ -1,6 +1,7 @@
 import  {useEffect, useState} from 'react'
 import appwriteService from "../appwrite/config";
-import { Container,PostCard } from '../components';
+import {Button, Container, PostCard} from '../components'
+import { Link } from 'react-router-dom';
 
 function Home() {
     const [posts, setPosts] = useState([])
@@ -20,8 +21,18 @@ function Home() {
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
                             <h1 className="text-2xl font-bold hover:text-gray-500">
-                                Login to read posts
-                            </h1>
+                               
+                                Login to Read Posts
+                             
+                            </h1> 
+                            <Link to="/login">
+                            <Button  className="w-2/12 mt-5">
+              Sign in
+            </Button>
+                            </Link>
+                        
+                           
+
                         </div>
                     </div>
                 </Container>

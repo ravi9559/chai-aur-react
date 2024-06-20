@@ -1,13 +1,12 @@
 
-import {Signup as LoginComponent} from '../components'
+import { Login } from '../components';
 
-function Login() {
-    return (
-        <div className='py-8'>
-            <LoginComponent/>
-             </div>
-    )
+function LoginPage() {
+  return (
+    <div className='py-8'>
+      <Login />
+    </div>
+  );
 }
 
-export default Login
- 
+export default LoginPage;
